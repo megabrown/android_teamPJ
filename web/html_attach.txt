@@ -1,3 +1,63 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
 
 <script type="text/javascript" src="functions.js"></script>
+
+<table border="0" ondbclick="toggleTableAll()">
+	<tr>
+		<td>
+			<button onclick="toggleTable1()"><img id="avignon1" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos1/Untitled-1-02-1.jpg?raw=true"></button>
+		</td>
+		<td>
+			<button onclick="toggleTable2()"><img id="avignon2" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos2/Untitled-1-03-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button onclick="toggleTable3()"><img id="avignon3" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos3/Untitled-1-04-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button onclick="toggleTable4()"><img id="avignon4" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos4/Untitled-1-05-1.jpg?raw=true"></button>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<button onclick="toggleTable5()"><img id="avignon5" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos5/Untitled-1-06-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button onclick="toggleTable6()"><img id="avignon6" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos6/Untitled-1-07-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button onclick="toggleTable7()"><img id="avignon7" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos7/Untitled-1-08-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button onclick="toggleTable8()"><img id="avignon8" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos8/Untitled-1-09-1.jpg?raw=true"></button>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<button onclick="toggleTable9()"><img id="avignon9" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos9/Untitled-1-10-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button onclick="toggleTable10()"><img id="avignon10" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos10/Untitled-1-11-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button onclick="toggleTable11()"><img id="avignon11" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos11/Untitled-1-12-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button onclick="toggleTable12()"><img id="avignon12" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos12/Untitled-1-13-1.jpg?raw=true"></button>
+		</td>
+	</tr>
+</table>
+
+<div style="display:none;">
+	<img id="temp1" src="">
+	<img id="temp2" src="">
+	<img id="temp3" src="">
+	<img id="temp4" src="">
+	<img id="temp5" src="">
+	<img id="temp6" src="">
+	<img id="temp7" src="">
+	<img id="temp8" src="">
+	<img id="temp9" src="">
+	<img id="temp10" src="">
+	<img id="temp11" src="">
+	<img id="temp12" src="">
+</div>
