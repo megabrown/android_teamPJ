@@ -2,7 +2,7 @@
 
 <script type="text/javascript" src="functions.js"></script>
 
-<table border="0" ondbclick="toggleTableAll()">
+<table border="0" ondblclick="toggleTableAll()">
 	<tr>
 		<td>
 			<button onclick="toggleTable1()"><img id="avignon1" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos1/Untitled-1-02-1.jpg?raw=true"></button>
