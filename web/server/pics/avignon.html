@@ -1,0 +1,213 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Dream</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <style type="text/css" media="screen">
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body, html {
+    padding: 3px 3px 3px 3px;
+
+    background-color: #000000;
+
+    font-family: Verdana, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+  }
+
+  div.main_page {
+    position: relative;
+    display: table;
+
+    width: 800px;
+
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+
+    background-color: #000000;
+
+    text-align: center;
+  }
+
+  div.page_header {
+    height: 99px;
+    width: 100%;
+
+    background-color: #000000;
+  }
+
+  div.page_header span {
+    margin: 15px 0px 0px 15px;
+
+    font-family: "Comic sans MS";
+    font-size: 180%;
+    font-weight: bold;
+    color: white;
+  }
+
+  div.page_header img {
+    margin: 3px 0px 0px 40px;
+
+    border: 0px 0px 0px;
+  }
+
+  div.content_section {
+    margin: 3px 3px 3px 3px;
+    width: 800px;
+    background-color: #000000;
+
+    text-align: left;
+  }
+
+  div.content_section_text {
+    padding: 4px 8px 4px 8px;
+
+    color: #FFFFFF;
+    font-size: 100%;
+  }
+
+  div.content_section_text pre {
+    margin: 8px 0px 8px 0px;
+    padding: 8px 8px 8px 8px;
+
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #000000;
+
+    background-color: #F5F6F7;
+
+    font-style: italic;
+  }
+
+  div.content_section_text p {
+    margin-bottom: 6px;
+    color: #666699;
+  }
+
+  div.content_section_text ul, div.content_section_text li {
+    padding: 4px 8px 4px 16px;
+    color: #9966FF;
+  }
+
+  div.section_header {
+    padding: 3px 6px 3px 6px;
+
+    background-color: #003333;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+  }
+
+  .floating_element {
+    position: relative;
+    float: left;
+  }
+
+  input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: gray;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+
+  input[type=text]:focus {
+     width: 100%;
+  }
+
+  .display {
+	border:0;
+	background-color:white;
+  } 
+    </style>
+  }
+  </head>
+  <body>
+    <div class="main_page">
+
+<table border="0" style="border-spacing:0px;" ondblclick="toggleTableAll()">
+	<tr>
+		<td>
+			<button class="display" onclick="toggleTable1()"><img id="avignon1" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos1/Untitled-1-02-1.jpg?raw=true"></button>
+		</td>
+		<td>
+			<button class="display" onclick="toggleTable2()"><img id="avignon2" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos2/Untitled-1-03-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button class="display" onclick="toggleTable3()"><img id="avignon3" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos3/Untitled-1-04-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button class="display" onclick="toggleTable4()"><img id="avignon4" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos4/Untitled-1-05-1.jpg?raw=true"></button>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<button class="display" onclick="toggleTable5()"><img id="avignon5" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos5/Untitled-1-06-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button class="display" onclick="toggleTable6()"><img id="avignon6" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos6/Untitled-1-07-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button class="display" onclick="toggleTable7()"><img id="avignon7" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos7/Untitled-1-08-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button class="display" onclick="toggleTable8()"><img id="avignon8" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos8/Untitled-1-09-1.jpg?raw=true"></button>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<button class="display" onclick="toggleTable9()"><img id="avignon9" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos9/Untitled-1-10-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button class="display" onclick="toggleTable10()"><img id="avignon10" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos10/Untitled-1-11-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button class="display" onclick="toggleTable11()"><img id="avignon11" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos11/Untitled-1-12-1.jpg?raw=true"></button>
+		</td>
+		<td> 
+			<button class="display" onclick="toggleTable12()"><img id="avignon12" src="https://github.com/megabrown/android_teamPJ/blob/master/avignon/pos12/Untitled-1-13-1.jpg?raw=true"></button>
+		</td>
+	</tr>
+</table>
+
+<div style="display:none;">
+	<img id="temp1" src="">
+	<img id="temp2" src="">
+	<img id="temp3" src="">
+	<img id="temp4" src="">
+	<img id="temp5" src="">
+	<img id="temp6" src="">
+	<img id="temp7" src="">
+	<img id="temp8" src="">
+	<img id="temp9" src="">
+	<img id="temp10" src="">
+	<img id="temp11" src="">
+	<img id="temp12" src="">
+</div>
+
+	<script type="text/javascript" src="function.js"></script>
+    </div>
+  </body>
+</html>
+
